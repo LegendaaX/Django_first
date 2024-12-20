@@ -5,10 +5,17 @@
     <title>Time page</title>
 </head>
 <body>
+    Menu:
+    <ol>
+        <li><a href="/">Home</a><li>
+        <li><a href="/time">Time</a><li>
+        <li><a href="/calc">Calc</a><li>
+    </ol>
+
     <p>Курс "Промышленное программирование"</p>
     <ul>
-        <li>Текущая дата: <time datetime="2024-12-19T20:21:58">20-12-2024</time></li>
-        <li> Текущее время: <time datetime="2024-12-19T20:21:58">20:21:58</time></li>
+        <li>Текущая дата: {{data}}</li>
+        <li> Текущее время: {{time}}</li>
 
     </ul>
 </body>
